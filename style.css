@@ -1,0 +1,424 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1368px;
+}
+.top-header-icon{
+    max-height: 30px;
+   background-color: #333;
+   color : white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+   font-size: 12px;
+   justify-content: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+
+.top-header-icon nav ul li{
+    display: inline-block;
+   
+}
+.top-header-icon .icon nav ul li {
+    padding-left: 10px;
+}
+.top-header-icon .icon nav ul li i{
+    color : white;
+
+}
+.home{
+    position: relative;
+   background: url('hero.png') no-repeat center/cover;
+   padding-bottom: 30px;
+}
+.home i{
+    color : orange;
+    padding-right: 2px;
+}
+.home .top{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.home .shop .title{
+
+    padding-top: 60px;
+}
+.home .shop .title .shop{
+    width : 150px;
+    height : 40px;
+    background-color: orange;
+    color : white;
+}
+.home .shop .title .read{
+    width : 150px;
+    height : 40px;
+    background-color: black;
+    color : white;
+}
+.home .shop .shop:hover{
+    background-color: orangered;
+    transition: 2s;
+}
+.home .shop .title .read:hover{
+    background-color: peachpuff;
+    color : black;
+    transition: 0.5s;
+}
+.menu nav{
+    margin-top: -80px;
+   padding-bottom: 150px;
+}
+.menu nav ul li{
+    display: inline-block;
+  
+    background-color: blanchedalmond;
+    color : white;
+    text-decoration: none;
+   
+}
+.menu nav ul li:hover{
+     background-color: red;
+    text-decoration: none;
+    transition: 2s;
+}
+.home  .col-3 img{
+    width : 390px;
+}
+
+#box{
+    padding-top: 70px;
+    background-color: rgb(216, 212, 207);
+}
+#box h4{
+   font-weight: bolder;
+    text-align: center;
+}
+#box h4 img{
+    padding-bottom: 90px;
+}
+#box ul{
+    margin-left : 200px;
+}
+#box ul li{
+    list-style: none;
+    display: inline-block;
+    padding-left: 20px;
+    margin-left: 0px;
+}
+.card{
+    width: 200px;
+    height: 280px;
+    align-items: center;
+    justify-content: center;
+    margin-top : 70px;
+    margin-bottom : 70px;
+    padding-bottom: 30px;
+
+    
+   
+}
+.card img{
+    width : 100px;
+    height : 100px;
+}
+.card .cl{
+    color : orange;
+}
+.card .gr{
+    color : gray;
+}
+.card button{
+    border : 1px solid orange;
+}
+.card button .cart{
+    background-color : orange;
+    color : white;
+    padding: 5px 10px;
+}
+.card button span{
+    padding: 7px 10px;
+    font-weight: 100;
+    color : rgb(107, 102, 93)
+}
+.card button:hover{
+    border : 1px solid orangered;
+}
+.card button :hover .cart{
+    background-color : orangered;
+    color : white;
+    transition : 2s;
+}
+.card button:hover span{
+   background-color: palegoldenrod;
+    color : rgb(22, 22, 21);
+    transition: 2s;
+}
+#box h1{
+    text-align: center;
+}
+#box .btn{
+    background-color: black;
+    color : white;
+    padding: 7px 10px;
+    margin-top: -40px;
+    margin-bottom: 50px;
+}
+   #box .btn:hover{
+       background-color: chocolate;
+       color : white;
+       transition: 2.5s;
+   }
+.freash{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.freash h4{
+   font-weight: bolder;
+    text-align: center;
+}
+.freash h4 img{
+    padding-bottom: 90px;
+}
+
+.freash .right{
+    flex-basis: auto;
+   padding-right: 30px;
+   padding-left: 200px;
+}
+.freash  p{
+    padding-top: 70px;
+    padding-right: 100px;
+}
+.freash .btn{
+    background-color: black;
+    color : white;
+    padding: 3px 10px;
+}
+.freash  .btn{
+    margin-top: 30px;
+}
+.freash  .btn:hover{
+    color : black;
+    background-color: blanchedalmond;
+    border : 1px solid black;
+    transition: 2.5s;
+}
+.service{
+    background : linear-gradient(rgb(255, 255, 255), rgb(179, 169, 169));
+    padding-bottom: 70px;
+}
+.service h4{
+    padding-top: 50px;
+    padding-bottom: 70px;
+    text-align: center;
+    font-weight: bold;
+}
+.service .card img{
+    width : 130px;
+    height : 100px;
+    padding-bottom: 20px;
+}
+.service .card{
+    height: 320px;
+    
+}
+.service .del p{
+    padding-bottom: 20px;
+}
+.service .del h6{
+    font-weight: bold;
+}
+.service .return h6{
+    color : orange;
+}
+.service .return .btn{
+    background-color: orange;
+    color : white;
+    padding: 5px 7px;
+    
+}
+.service .del .btn{
+    background-color: black;
+    color : white;
+    padding: 5px 7px;
+    margin-bottom: 30px;
+  
+}
+.service .del .btn:hover{
+    background-color: rgb(99, 35, 35);
+    color : rgb(224, 201, 201);
+    transition: 2.5s;
+}
+.service .return .btn:hover{
+    background-color: rgb(134, 91, 11);
+    color : white;
+    transition: 2.5s;
+}
+.deals{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(salad-table.jpg);
+   background-size : cover;
+   background-repeat: no-repeat;
+    padding-bottom: 70px;
+}
+.deals .navbar{
+    display: flex;
+    flex-wrap: wrap;
+}
+.deals h4{
+    color : white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 90px;
+    font-weight: bold;
+}
+
+.deals .navbar nav ul li{
+    display: inline-block;
+    background-color: orange;
+    padding: 20px 20px;
+    text-align: center;
+    color : white;
+    margin-left : 5px;
+    
+}
+.blog{
+    background: linear-gradient(rgb(255, 255, 255), rgb(204, 196, 196));
+}
+.blog h4{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+.blog nav{
+    display: flex;
+    flex-wrap: wrap;
+}
+.blog nav ul li{
+    display: inline-block;
+    list-style: none;
+}
+.blog nav ul li  .card{
+    width : 370px;
+    height : 490px;
+   margin-left: 30px;
+}
+.blog nav ul li  .card img{
+    width : 300px;
+    height : 250px;
+    padding-bottom: 40px;
+}
+.blog nav ul li  .card h5{
+    font-weight: bold;
+}
+.blog h4 .btn{
+    background-color: black;
+    color : white;
+    padding: 5px 7px;
+    margin-top : -100px;
+
+}
+.blog h4 .btn:hover{
+    background-color: rgb(134, 91, 11);
+    color : white;
+    transition: 2.5s;
+}
+.subscriber{
+    background-color: chocolate;
+    
+}
+.subscriber img{
+    width : 350px;
+    height : 350px;
+    padding-left: 30px;
+}
+.subscriber .rasbery{
+    padding-top: 100px;
+    padding-left: 30px;
+}
+.subscriber .rasbery h4{
+    font-weight : bold;
+}
+.subscriber .rasbery input{
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.subscriber .rasbery .btn{
+    background-color: orangered;
+    color : white;
+    position: absolute;
+    margin-top : -40px;
+    margin-left : 170px;
+}
+.subscriber .rasbery .btn:hover{
+    background-color: black;
+    color : white;
+    transition: 3s;
+}
+.contact .col-4 h5{
+    text-align: center;
+    padding-top: 50px;
+}
+.contact .col-4 i{
+    color : orange;
+    padding-right: 4px;
+}
+.contact .col-4 ul li{
+    list-style: none;
+}
+.contact .col-6 img{
+    width : 480px;
+    height :  450px;
+    
+}
+.footer{
+    padding-top: 90px;
+    background-color: rgb(34, 34, 32);
+    color : rgb(179, 169, 169);
+}
+.footer ul li{
+    list-style: none;
+}
+.footer .btn{
+    background-color: rgb(17, 17, 16);
+    color: white;
+    margin-left : 30px;
+}
+.footer .about h5{
+    text-align: center;
+}
+.footer .about p{
+    padding-left: 20px;
+}
+.footer i{
+    color : rgb(209, 199, 199);
+    padding-right: 5px;
+}
+.footer a{
+    text-decoration: none;
+    color  :rgb(179, 169, 169);
+}
+.footer .image ul li{
+    display: inline-block;
+    padding-left: 2px;
+    padding-top: 3px;
+}
+.footer img{
+    width : 70px;
+    height : 70px;
+}
+.rights{
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.rights h6{
+    font-weight: normal;
+    text-align: center;
+    color :rgb(179, 169, 169);
+}
